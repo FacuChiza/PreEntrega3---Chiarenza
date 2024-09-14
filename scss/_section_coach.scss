@@ -1,0 +1,75 @@
+.cont-resumen-coach{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+    .resumen-coach{
+        background-color: rgb(225, 236, 209);
+        padding: 10px 20px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 20px;
+        box-shadow: 10px 10px 20px rgb(68, 68, 68);
+        width: 80%;
+    }
+}
+
+.cont-txt-img-coach{
+    display: flex;
+
+}
+
+.cont-txt-img-coach-mobile{
+    display: none;
+}
+.txt-coach{
+    align-self: center;
+    padding: 10px;
+    background-color:rgb(202, 225, 217);
+    margin-left: 50px;
+    box-shadow: 10px 10px 20px rgb(68, 68, 68);
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+}
+
+.img-coach{
+    height: 100vh;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px){
+
+    .cont-resumen-coach{
+        margin-top: 100px;
+    }
+
+    .cont-txt-img-coach{
+        display: none;
+    }
+
+    .cont-txt-img-coach-mobile{
+        display: block;
+    }
+
+    .cont-resumen-coach ,.txt-coach{
+        min-width: 40%;
+    }
+
+    .resumen, .txt{
+        font-size: 15px;
+    }
+
+    .cont-img-coach{
+        margin: 40px 0px;
+    }
+
+    .img-coach{
+        width: 50%;
+        height: 50%;
+    }
+
+    .txt-coach{
+        margin: 30px 40px;
+    }
+}
+

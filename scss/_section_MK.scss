@@ -1,0 +1,123 @@
+.cont-resumen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    animation: 2;
+    margin: 0 40px;
+    margin-top: 90px;
+
+    .resumen{
+        background-color: rgb(247, 230, 230);
+        padding: 20px 20px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 22px;
+        box-shadow: 10px 10px 20px rgb(68, 68, 68);
+    }
+}
+
+.cont-txt-img{
+    display: flex;
+    margin: 0 40px;
+
+    .ft-parada{
+        margin-left: 10px;
+        margin-right: 40px;
+        padding: 20px;
+        padding-bottom: 0;
+        height: 90vh;
+        background-color: #f6c8f1;
+        box-shadow: 10px 10px 20px rgb(68, 68, 68);
+    }
+
+    .txt-img{
+        background-color: #f6c8f1;
+        align-self: center;
+        text-align: center;
+        font-family: 'Cabin', sans-serif;
+        font-size: 28px;
+        padding: 10px;
+        margin-right: 10px;
+        box-shadow: 10px 10px 20px rgb(68, 68, 68);
+    }
+}
+
+.header-iniciarse-MK{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.no-sabes{
+    animation: 10;
+}
+
+
+.div-iniciarse-MK{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    color: rgb(111, 111, 107);
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.cont-video-MK{
+    display: flex;
+    justify-content: center;
+
+    .video-MK{
+        width: 560px;
+        height: 315px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .cont-resumen{
+        margin: 0 10px;
+        margin-top: 70px;
+
+        .resumen{
+            font-size: 3vh;
+            margin: 20px;
+        }
+    }
+
+    .cont-txt-img{
+        display: block;
+
+        .txt-img{
+            font-size: 4vh;
+        }
+
+        .ft-parada{
+            margin: 0 0;
+        }
+    }
+
+    .cont-ft-parada{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .no-sabes{
+        font-size: 6vh;
+    }
+
+    .iniciarse{
+        font-size: 4vh;
+    }
+
+    .video-MK{
+        margin: 0 20px;
+        width: 80%;
+        height: 70%;
+    }
+}
