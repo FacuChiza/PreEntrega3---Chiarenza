@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Icono -->
+    <link rel="shorcut icon" href="../cont_multi/Captura de pantalla 2024-02-02 200350.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Menú desplegablee para seleccionar la moneda -->
+    <section class="menu_monedas text-center">
+        <label for="select-moneda" class="form-label">Selecciona una moneda:</label>
+        <select id="select-moneda" class="form-select w-25 mx-auto">
+           <option value="" disabled selected>Moneda</option>
+        </select>
+    </section>
+     
+
+    <!-- Contenedor para los productos -->
+    <main class="main-stock">
+        <section id="contenedor-productos" class="cont-stock"></section>
+    </main>
+
+    <script src="../javascript/uso_API_productos.js"></script>
+</body>
+</html>

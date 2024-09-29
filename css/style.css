@@ -563,4 +563,149 @@ input[type=submit] {
   }
 }
 
+/* Estilos generales */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f2f7;
+}
+
+/* Estilos para botones */
+.btn-stock {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background-color: #fb89b8; 
+  border: none;
+  border-radius: 25px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-stock:hover {
+  background-color: #f4a6c1;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .btn-stock {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  select#select-moneda {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .producto h3 {
+    font-size: 16px;
+  }
+  .producto p {
+    font-size: 14px;
+  }
+  .producto {
+    padding: 15px;
+  }
+}
+
+/* Estilos para el contenedor de productos */
+.cont-stock, #contenedor-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Estilos para cada producto */
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbe4f5;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para imágenes de productos */
+.producto img, .img-producto {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 2px solid #d08fc8;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Estilos para el nombre del producto */
+.producto h3, .nombre-producto {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el precio del producto */
+.producto p, .precio-producto {
+  font-size: 16px;
+  color: #e91e63;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menu_monedas{
+  padding-top: 30px;
+}
+
+
+/* Estilos para el menú desplegable */
+section label {
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+select#select-moneda {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+  outline: none;
+}
+
+select#select-moneda:hover,
+select#select-moneda:focus {
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+option {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+
+.swal-modal {
+  background-color: #f0f0f0 !important;
+  color: #333 !important;
+}
+.swal-title {
+  color: #333 !important;
+}
+
 /*# sourceMappingURL=style.css.map */

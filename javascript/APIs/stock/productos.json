@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombre": "TimeWise 3D Age Minimize Day Cream",
+    "precio": 15200.00,
+    "imagen": "../javascript/APIs/stock/images/image.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Satin Lips Shea Sugar Scrub",
+    "precio": 12900.00,
+    "imagen": "../javascript/APIs/stock/images/image copy.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Oil-Free Eye Makeup Remover",
+    "precio": 17000.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 2.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Clear Proof Acne Treatment Gel",
+    "precio": 9800.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 3.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Ultimate Mascara",
+    "precio": 3500.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 4.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Mineral Powder Foundation",
+    "precio": 25100.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 5.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Satin Hands Pampering Set",
+    "precio": 36500.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 6.png"
+  },
+  {
+    "id": 8,
+    "nombre": "CC Cream Sunscreen SPF 15",
+    "precio": 10000.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 7.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Lash Love Mascara",
+    "precio": 4000.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 8.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Botanical Effects Cleansing Gel",
+    "precio": 18500.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 9.png"
+  },
+  {
+    "id": 11,
+    "nombre": "TimeWise Repair Volu-Firm Eye Renewal Cream",
+    "precio": 11200.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 10.png"
+  },
+  {
+    "id": 12,
+    "nombre": "Satin Lips Shea Butter Balm",
+    "precio": 9000.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 11.png"
+  },
+  {
+    "id": 13,
+    "nombre": "Clear Proof Clarifying Cleansing Gel",
+    "precio": 16000.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 12.png"
+  },
+  {
+    "id": 14,
+    "nombre": "TimeWise Moisture Renewing Gel Mask",
+    "precio": 12000.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 13.png"
+  },
+  {
+    "id": 15,
+    "nombre": "Indulge Soothing Eye Gel",
+    "precio": 16500.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 14.png"
+  },
+  {
+    "id": 16,
+    "nombre": "Mary Kay Hydrogel Eye Patches",
+    "precio": 20300.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 15.png"
+  },
+  {
+    "id": 17,
+    "nombre": "TimeWise Microdermabrasion Refine",
+    "precio": 13800.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 16.png"
+  },
+  {
+    "id": 18,
+    "nombre": "Botanical Effects Moisturizing Gel",
+    "precio": 10500.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 17.png"
+  },
+  {
+    "id": 19,
+    "nombre": "Sheer Dimensions Powder",
+    "precio": 3500.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 18.png"
+  },
+  {
+    "id": 20,
+    "nombre": "Luminous Wear Liquid Foundation",
+    "precio": 8700.00,
+    "imagen": "../javascript/APIs/stock/images/image copy 19.png"
+  }
+]
